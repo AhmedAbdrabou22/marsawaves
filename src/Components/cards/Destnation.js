@@ -31,7 +31,7 @@ const Destnation = () => {
     };
 
     return (
-        <div style={{ marginTop: "120px" }} className='text-center' dir="rtl">
+        <div style={{ marginTop: "120px"  , height:"80vh" , lineHeight:"260%"}} className='text-center' dir="rtl">
             <div className='redSea'>
                 <Common title="DESTINATIONS" desc="Let's Discover Your" insideDesc = "DESTINATIONS"/>
                 <div className='w-75 m-auto'>
@@ -46,7 +46,7 @@ const Destnation = () => {
                                             </div>
                                             <div className='description'>
                                                 <p className='w-100 fs-2' style={{color:"#004796"}}>{item.title}</p>
-                                                <p className='w-100'>{item.desc}</p></div>
+                                                <p className='w-100' style={{wordSpacing:"5px"}}>{item.desc}</p></div>
                                         </div>
                                     )
                                 })

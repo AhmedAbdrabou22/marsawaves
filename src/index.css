@@ -95,8 +95,8 @@ body {
 .navBar {
   position: sticky;
   top: 0;
-  z-index: 1000;
-  background-color: white;
+  z-index: 1000; 
+  background-color:white;
 }
 
 .links {
@@ -256,7 +256,6 @@ body {
   background-image: url(./images/map-home.png);
   background-repeat: no-repeat;
   background-position: right;
-  height: 100vh;
 }
 .slick-slider{
   position: relative;
@@ -301,7 +300,7 @@ body {
 
 /**tours */
 .tours{
-  margin-top: 180px !important;
+  /* margin-top: 180px !important; */
 }
 
 
@@ -341,5 +340,8 @@ body {
   }
   .containerData{
     flex-direction: column;
+  }
+  .redSea{
+    height: 95vh;
   }
 }
