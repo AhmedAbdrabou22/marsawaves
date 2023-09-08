@@ -17,10 +17,6 @@ const Destnation = () => {
 
     const products = useSelector(state => state.getAllProducts.products)
 
-    if (products) {
-        console.log(products.data);
-    }
-
 
     const settings = {
         dots: true,
@@ -34,7 +30,7 @@ const Destnation = () => {
         <div style={{ marginTop: "120px"  , height:"80vh" , lineHeight:"260%"}} className='text-center' dir="rtl">
             <div className='redSea'>
                 <Common title="DESTINATIONS" desc="Let's Discover Your" insideDesc = "DESTINATIONS"/>
-                <div className='w-75 m-auto'>
+                <div className='w-75 m-auto '>
                     <Slider {...settings}>
                         {
                             products && products.data ? (

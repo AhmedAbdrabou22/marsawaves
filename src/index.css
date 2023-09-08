@@ -257,10 +257,11 @@ body {
   background-repeat: no-repeat;
   background-position: right;
 }
-.slick-slider{
+.redSea .slick-slider{
   position: relative;
 }
-.slick-arrow {
+
+.redSea .slick-arrow {
   background-color: #004796  !important;
   width:50px !important;
   height:50px !important;
@@ -275,13 +276,13 @@ body {
   text-align: center;
   margin: auto;
 }
-.slick-prev{
+.redSea .slick-prev{
   left:4% !important;
 }
-.slick-next{
+.redSea .slick-next{
   left:35% !important; 
 }
-.slick-dots{
+.redSea .slick-dots{
   display: none !important;
 }
 .description{
@@ -299,8 +300,40 @@ body {
 
 
 /**tours */
-.tours{
-  /* margin-top: 180px !important; */
+.cityTours{
+  width: 100%;
+  height:55vh;
+  background-image: url(../src/images/city-tour.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.productOne , .productTwo , .productThree{
+  width:95% !important;
+  height: 35vh !important;
+  background-image: url(../src/images/abudabbab_lagoon.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  color: white !important;
+  font-size: 25px;
+  position: relative;
+}
+.productTwo{
+  background-image: url(../src/images/wady_elgemal_marsaalam.jpg);
+}
+.productThree{
+  background-image: url(../src/images/snorkeling_with_dolphins_marsaalam.jpg);
+}
+.details{
+  position: absolute;
+  top:50%;
 }
 
 
@@ -319,7 +352,8 @@ body {
   .city{
     width:95%;
     left:2%;
-    top:50%
+    top:56.5%;
+    padding:20px
 }
   .detailsCity{
     flex-direction: column;
@@ -328,7 +362,7 @@ body {
     width:90%;
     margin:10px
   }
-  .slick-arrow{
+  .redSea  .slick-arrow{
     top:102% !important;
   }
   .description{
@@ -343,5 +377,8 @@ body {
   }
   .redSea{
     height: 95vh;
+  }
+  .s{
+    margin-top: 550px !important;
   }
 }
