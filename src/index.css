@@ -335,8 +335,83 @@ body {
   position: absolute;
   top:50%;
 }
+.productThree .price{
+  position: absolute;
+  right:0;
+  top:10%;
+  background-color: rgb(255, 104, 26);
+  width:90px;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.overlay{
+  position: absolute;
+  top:0;
+  left:0;
+  right: 0;
+  bottom: 0;
+  width:100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+/**Style Offers */
+.viewAll{
+  background:linear-gradient(180deg,#2a4797 0%,#0081d5 100%);
+  color:white !important;
+  font-size: 20px !important;
+  font-weight: 600px !important;
+}
+.offers{
+  margin-top: 120px;
+}
+ .cardOne{
+  width:100%;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding-top:10px;
+  padding-right: 10px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
 
-
+.malem img{
+  width:100px;
+  height: 100px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.view{
+  background-color: #004796 !important;
+  color:white !important;
+  margin-top: 15px;
+  text-align: right !important;
+}
+.disImage{
+  position: relative;
+}
+.disImage p{
+  font-size: 25px;
+  font-weight: 600;
+  position: absolute;
+  color:white;
+  top:25%;
+  left:10%;
+}
 /**media query */
 @media (max-width:768px){
   body{

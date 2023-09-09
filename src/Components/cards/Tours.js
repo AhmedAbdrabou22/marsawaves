@@ -44,7 +44,7 @@ const Tours = () => {
         ],
     };
 
-    if(products){
+    if (products) {
         console.log(products.data);
     }
 
@@ -52,7 +52,7 @@ const Tours = () => {
 
 
     return (
-        <div className='tours s' style={{ marginTop: "180px" }}>
+        <div className='tours s'>
             <Common title="OUR POPULAR TOURS" desc="Our" insideDesc="Tours" />
             <div className='cityTours mt-5 py-4'>
                 <Container>
@@ -61,10 +61,15 @@ const Tours = () => {
                             products && products.data ? (
                                 products.data.map((item) => {
                                     return (
-                                        <div className='productOne'>
-                                            <div className='details'>
-                                                <h2>{item.title}</h2>
-                                                <p>{item.city}</p>
+                                        <div className='productThree'>
+                                            <div className='overlay'>
+                                                <div className='price'>
+                                                    <p>{item.amount} $</p>
+                                                </div>
+                                                <div className='details'>
+                                                    <h2>{item.title}</h2>
+                                                    <p>{item.city}</p>
+                                                </div>
                                             </div>
                                         </div>
                                     )
@@ -73,6 +78,7 @@ const Tours = () => {
                         }
                     </Slider>
                 </Container>
+                <button className='btn viewAll mt-5'>View All</button>
             </div>
         </div>
     )
